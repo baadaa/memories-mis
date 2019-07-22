@@ -3,3 +3,5 @@
 *.css.map
 _site/
 node_modules
+.cache
+dist
