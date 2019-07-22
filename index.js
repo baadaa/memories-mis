@@ -1,30 +1,50 @@
 import Masonry from 'masonry-layout';
 import imagesLoaded from 'imagesloaded';
-import baquetteBox from 'baguettebox.js';
+import GLightbox from 'glightbox';
+import { studioShots, weddingDay, processTags } from './js/photoSections';
 
-const grid = document.querySelector('.grid');
+window.addEventListener('load', () => {
+  let currentSection = 'Studio Shoot';
+  const sectionTitle = document.querySelector('.currently_showing');
 
-imagesLoaded(grid, function() {
-  // init Isotope after all images have loaded
-  const msnry = new Masonry(grid, {
-    itemSelector: '.grid-item',
-    columnWidth: '.grid-sizer',
-    percentPosition: true,
-  });
+  const grid = document.querySelector('.grid');
+  const initMasonry = gridArea => {
+    imagesLoaded(gridArea, function() {
+      // init Isotope after all images have loaded
+      return new Masonry(gridArea, {
+        itemSelector: '.grid-item',
+        columnWidth: '.grid-sizer',
+        percentPosition: true,
+      });
+    });
+  };
+
+  const getSectionTags = (section = studioShots) =>
+    section.reduce(
+      (acc, item) => acc + processTags(item),
+      '<div class="grid-sizer"></div>'
+    );
+
+  const initGLightbox = () =>
+    GLightbox({
+      selector: 'glightboxTest',
+      touchNavigation: true,
+    });
+  const handleSwitch = e => {
+    if (currentSection === 'Studio Shoot') {
+      currentSection = 'Wedding Day';
+      grid.innerHTML = getSectionTags(weddingDay);
+    } else {
+      currentSection = 'Studio Shoot';
+      grid.innerHTML = getSectionTags(studioShots);
+    }
+    sectionTitle.innerHTML = currentSection;
+    initGLightbox();
+    initMasonry(grid);
+  };
+
+  grid.innerHTML = getSectionTags();
+  document.querySelector('.menu-btn').addEventListener('click', handleSwitch);
+  initGLightbox();
+  initMasonry(grid);
 });
-baquetteBox.run('.gallery');
-
-// document.addEventListener('DOMContentLoaded', function() {
-//   const imageObserver = new IntersectionObserver((entries, imgObserver) => {
-//     entries.forEach(entry => {
-//       console.log(entry.target);
-//       if (entry.isIntersecting) {
-//         const lazyImage = entry.target;
-//         lazyImage.src = lazyImage.dataset.src;
-//         imgObserver.unobserve(lazyImage);
-//       }
-//     });
-//   });
-//   const imageItems = document.querySelectorAll('.grid-item > img');
-//   imageItems.forEach(img => imageObserver.observe(img));
-// });
