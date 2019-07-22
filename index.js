@@ -1,5 +1,6 @@
 import Masonry from 'masonry-layout';
 import imagesLoaded from 'imagesloaded';
+import baquetteBox from 'baguettebox.js';
 
 const grid = document.querySelector('.grid');
 
@@ -11,6 +12,7 @@ imagesLoaded(grid, function() {
     percentPosition: true,
   });
 });
+baquetteBox.run('.gallery');
 
 // document.addEventListener('DOMContentLoaded', function() {
 //   const imageObserver = new IntersectionObserver((entries, imgObserver) => {
