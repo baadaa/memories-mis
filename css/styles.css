@@ -848,7 +848,6 @@ header {
   top: 0;
   left: 0;
   right: 0;
-  height: 60px;
   -webkit-box-shadow: 0 1px 10px rgba(0, 0, 0, 0.2);
           box-shadow: 0 1px 10px rgba(0, 0, 0, 0.2);
 }
@@ -863,31 +862,61 @@ nav {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  height: 100%;
+  height: 60px;
   max-width: 1200px;
   margin: 0 auto;
   position: relative;
 }
 
-nav img {
-  width: 256px;
-  height: auto;
+nav .site_title {
+  width: 260px;
+  height: 27px;
+  -webkit-transition: -webkit-transform .2s;
+  transition: -webkit-transform .2s;
+  transition: transform .2s;
+  transition: transform .2s, -webkit-transform .2s;
 }
 
 nav .menu-btn {
   position: absolute;
   right: 15px;
+  cursor: pointer;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-transition: -webkit-transform .2s;
+  transition: -webkit-transform .2s;
+  transition: transform .2s;
+  transition: transform .2s, -webkit-transform .2s;
 }
 
 nav .menu-btn img {
   width: 38px;
   height: 31px;
+}
+
+@media screen and (max-width: 550px) {
+  nav {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    padding-left: 15px;
+  }
+  nav .site_title {
+    -webkit-transform: scale(0.8);
+            transform: scale(0.8);
+    -webkit-transform-origin: left;
+            transform-origin: left;
+  }
+  nav .menu-btn {
+    -webkit-transform: scale(0.8);
+            transform: scale(0.8);
+    -webkit-transform-origin: right;
+            transform-origin: right;
+  }
 }
 
 .img-area {
@@ -985,7 +1014,7 @@ nav .menu-btn img {
   }
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 400px) {
   .grid-sizer,
   .grid-item {
     width: 100%;

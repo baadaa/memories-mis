@@ -183,7 +183,7 @@ const weddingDay = [
 
 const processTags = tagItem => `
         <div class="grid-item">
-          <a href="${tagItem.full}" class="glightboxTest">
+          <a href="${tagItem.full}" class="glightbox">
             <img src="${tagItem.thumb}" alt="">
           </a>
         </div>

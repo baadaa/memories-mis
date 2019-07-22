@@ -27,7 +27,7 @@ window.addEventListener('load', () => {
 
   const initGLightbox = () =>
     GLightbox({
-      selector: 'glightboxTest',
+      selector: 'glightbox',
       touchNavigation: true,
     });
   const handleSwitch = e => {
@@ -39,6 +39,10 @@ window.addEventListener('load', () => {
       grid.innerHTML = getSectionTags(studioShots);
     }
     sectionTitle.innerHTML = currentSection;
+    window.scroll({
+      top: 0,
+      behavior: 'smooth',
+    });
     initGLightbox();
     initMasonry(grid);
   };
