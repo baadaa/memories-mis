@@ -30,6 +30,10 @@ window.addEventListener('load', () => {
       selector: 'glightbox',
       touchNavigation: true,
     });
+
+  const mobileToggle = () => {
+    document.querySelector('.menu-toggle').classList.toggle('active');
+  };
   const handleSwitch = e => {
     if (currentSection === 'Studio Shoot') {
       currentSection = 'Wedding Day';
@@ -48,7 +52,11 @@ window.addEventListener('load', () => {
   };
 
   grid.innerHTML = getSectionTags();
-  document.querySelector('.menu-btn').addEventListener('click', handleSwitch);
+
+  const initBinding = () => {
+    document.querySelector('.menu-btn').addEventListener('click', mobileToggle);
+  };
+  initBinding();
   initGLightbox();
   initMasonry(grid);
 });
