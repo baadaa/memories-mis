@@ -1,6 +1,8 @@
 import Masonry from 'masonry-layout';
 import imagesLoaded from 'imagesloaded';
 import GLightbox from 'glightbox';
+import { shuffle } from './js/shuffle';
+
 import {
   studioShots,
   weddingDay,
@@ -47,11 +49,10 @@ window.addEventListener('load', () => {
   };
 
   const getSectionTags = (section = studioShots) =>
-    section.reduce(
+    shuffle([...section]).reduce(
       (acc, item) => acc + processTags(item),
       '<div class="grid-sizer"></div>'
     );
-
   const initGLightbox = () =>
     GLightbox({
       selector: 'glightbox',
