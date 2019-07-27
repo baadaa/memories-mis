@@ -180,6 +180,86 @@ const weddingDay = [
       'https://res.cloudinary.com/baadaa/image/upload/c_fit,h_2600,w_2600,f_auto,q_auto/a_0/v1541567823/photos/IMG_9525.jpg',
   },
 ];
+const roadTrip = [
+  {
+    thumb:
+      'https://res.cloudinary.com/baadaa/image/upload/c_scale,f_auto,q_auto,w_400/a_0/v1556514439/photos/IMG_1223.jpg',
+    full:
+      'https://res.cloudinary.com/baadaa/image/upload/c_fit,h_2600,w_2600,f_auto,q_auto/a_0/v1556514439/photos/IMG_1223.jpg',
+  },
+  {
+    thumb:
+      'https://res.cloudinary.com/baadaa/image/upload/c_scale,f_auto,q_auto,w_400/a_0/v1556514582/photos/IMG_1136.jpg',
+    full:
+      'https://res.cloudinary.com/baadaa/image/upload/c_fit,h_2600,w_2600,f_auto,q_auto/a_0/v1556514582/photos/IMG_1136.jpg',
+  },
+  {
+    thumb:
+      'https://res.cloudinary.com/baadaa/image/upload/c_scale,f_auto,q_auto,w_400/a_0/v1556513777/photos/IMG_1501.jpg',
+    full:
+      'https://res.cloudinary.com/baadaa/image/upload/c_fit,h_2600,w_2600,f_auto,q_auto/a_0/v1556513777/photos/IMG_1501.jpg',
+  },
+  {
+    thumb:
+      'https://res.cloudinary.com/baadaa/image/upload/c_scale,f_auto,q_auto,w_400/a_0/v1556514344/photos/IMG_1336.jpg',
+    full:
+      'https://res.cloudinary.com/baadaa/image/upload/c_fit,h_2600,w_2600,f_auto,q_auto/a_0/v1556514344/photos/IMG_1336.jpg',
+  },
+  {
+    thumb:
+      'https://res.cloudinary.com/baadaa/image/upload/c_scale,f_auto,q_auto,w_400/a_0/v1550525854/photos/2019-2018-IMG_9499.jpg',
+    full:
+      'https://res.cloudinary.com/baadaa/image/upload/c_fit,h_2600,w_2600,f_auto,q_auto/a_0/v1550525854/photos/2019-2018-IMG_9499.jpg',
+  },
+  {
+    thumb:
+      'https://res.cloudinary.com/baadaa/image/upload/c_scale,f_auto,q_auto,w_400/a_0/v1550525853/photos/2019-2018-IMG_9487.jpg',
+    full:
+      'https://res.cloudinary.com/baadaa/image/upload/c_fit,h_2600,w_2600,f_auto,q_auto/a_0/v1550525853/photos/2019-2018-IMG_9487.jpg',
+  },
+  {
+    thumb:
+      'https://res.cloudinary.com/baadaa/image/upload/c_scale,f_auto,q_auto,w_400/a_0/v1550525842/photos/2019-2018-IMG_9554.jpg',
+    full:
+      'https://res.cloudinary.com/baadaa/image/upload/c_fit,h_2600,w_2600,f_auto,q_auto/a_0/v1550525842/photos/2019-2018-IMG_9554.jpg',
+  },
+  {
+    thumb:
+      'https://res.cloudinary.com/baadaa/image/upload/c_scale,f_auto,q_auto,w_400/a_0/v1550525836/photos/2019-2018-IMG_0012.jpg',
+    full:
+      'https://res.cloudinary.com/baadaa/image/upload/c_fit,h_2600,w_2600,f_auto,q_auto/a_0/v1550525836/photos/2019-2018-IMG_0012.jpg',
+  },
+  {
+    thumb:
+      'https://res.cloudinary.com/baadaa/image/upload/c_scale,f_auto,q_auto,w_400/a_0/v1550524764/photos/IMG_3432.jpg',
+    full:
+      'https://res.cloudinary.com/baadaa/image/upload/c_fit,h_2600,w_2600,f_auto,q_auto/a_0/v1550524764/photos/IMG_3432.jpg',
+  },
+  {
+    thumb:
+      'https://res.cloudinary.com/baadaa/image/upload/c_scale,f_auto,q_auto,w_400/a_0/v1550524821/photos/IMG_7608.jpg',
+    full:
+      'https://res.cloudinary.com/baadaa/image/upload/c_fit,h_2600,w_2600,f_auto,q_auto/a_0/v1550524821/photos/IMG_7608.jpg',
+  },
+  {
+    thumb:
+      'https://res.cloudinary.com/baadaa/image/upload/c_scale,f_auto,q_auto,w_400/a_0/v1541567843/photos/IMG_9819.jpg',
+    full:
+      'https://res.cloudinary.com/baadaa/image/upload/c_fit,h_2600,w_2600,f_auto,q_auto/a_0/v1541567843/photos/IMG_9819.jpg',
+  },
+  {
+    thumb:
+      'https://res.cloudinary.com/baadaa/image/upload/c_scale,f_auto,q_auto,w_400/a_0/v1541567842/photos/IMG_9746.jpg',
+    full:
+      'https://res.cloudinary.com/baadaa/image/upload/c_fit,h_2600,w_2600,f_auto,q_auto/a_0/v1541567842/photos/IMG_9746.jpg',
+  },
+  {
+    thumb:
+      'https://res.cloudinary.com/baadaa/image/upload/c_scale,f_auto,q_auto,w_400/a_0/v1541567823/photos/IMG_9525.jpg',
+    full:
+      'https://res.cloudinary.com/baadaa/image/upload/c_fit,h_2600,w_2600,f_auto,q_auto/a_0/v1541567823/photos/IMG_9525.jpg',
+  },
+];
 
 const processTags = tagItem => `
         <div class="grid-item">
@@ -189,4 +269,4 @@ const processTags = tagItem => `
         </div>
         `;
 
-export { studioShots, weddingDay, processTags };
+export { studioShots, weddingDay, roadTrip, processTags };

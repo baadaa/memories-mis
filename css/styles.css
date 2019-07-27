@@ -838,7 +838,6 @@ html,
 body {
   margin: 0;
   padding: 0;
-  background: #202020;
   font-family: "Raleway", Arial, Helvetica, sans-serif;
 }
 
@@ -973,13 +972,14 @@ nav.menu-toggle ul li {
   font-size: 30px;
   color: #fff;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+  cursor: pointer;
+  position: relative;
+  -webkit-transition: font-size .2s;
+  transition: font-size .2s;
 }
 
-nav.menu-toggle ul li span {
-  width: 100%;
-  display: block;
-  text-align: center;
-  padding: 10px 0;
+nav.menu-toggle ul li:hover {
+  font-size: 37px;
 }
 
 nav.menu-toggle ul li.studioShots {
@@ -1024,7 +1024,7 @@ nav.menu-toggle ul li.roadTrip {
   position: absolute;
   left: 6px;
   width: 13px;
-  background: #fff;
+  background: #EEE;
   -webkit-animation: lds-facebook 1.2s cubic-bezier(0, 0.5, 0.5, 1) infinite;
           animation: lds-facebook 1.2s cubic-bezier(0, 0.5, 0.5, 1) infinite;
 }
@@ -1074,7 +1074,6 @@ nav.menu-toggle ul li.roadTrip {
 .img-area h1 {
   margin: 0;
   font-weight: 200;
-  color: #fff;
   font-size: 15px;
   padding: 10px;
 }
@@ -1093,7 +1092,7 @@ nav.menu-toggle ul li.roadTrip {
 @media screen and (max-width: 768px) {
   .grid-sizer,
   .grid-item {
-    width: 49.5%;
+    width: 49.99999%;
   }
 }
 
@@ -1106,10 +1105,21 @@ nav.menu-toggle ul li.roadTrip {
 
 .grid-item {
   float: left;
+  overflow: hidden;
+  background: #eee;
 }
 
 .grid-item img {
   display: block;
   max-width: 100%;
+  -webkit-transition: -webkit-transform .2s;
+  transition: -webkit-transform .2s;
+  transition: transform .2s;
+  transition: transform .2s, -webkit-transform .2s;
+}
+
+.grid-item img:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
 }
 /*# sourceMappingURL=styles.css.map */
