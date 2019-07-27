@@ -838,6 +838,7 @@ html,
 body {
   margin: 0;
   padding: 0;
+  background: #202020;
   font-family: "Raleway", Arial, Helvetica, sans-serif;
 }
 
@@ -1074,6 +1075,7 @@ nav.menu-toggle ul li.roadTrip {
 .img-area h1 {
   margin: 0;
   font-weight: 200;
+  color: #fff;
   font-size: 15px;
   padding: 10px;
 }
