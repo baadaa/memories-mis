@@ -1,92 +1,243 @@
 const studioShots = [
   {
     thumb:
-      'https://res.cloudinary.com/baadaa/image/upload/c_scale,f_auto,q_auto,w_400/a_0/v1556514986/photos/IMG_0533.jpg',
+      'https://res.cloudinary.com/anteater/image/upload/c_scale,f_auto,q_auto,w_600/v1564253292/studio_shot/SIK_4787_asd1me.jpg',
     full:
-      'https://res.cloudinary.com/baadaa/image/upload/c_fit,h_2600,w_2600,f_auto,q_auto/a_0/v1556514986/photos/IMG_0533.jpg',
+      'https://res.cloudinary.com/anteater/image/upload/c_fit,h_2600,w_2600,f_auto,q_auto/v1564253292/studio_shot/SIK_4787_asd1me.jpg',
   },
   {
     thumb:
-      'https://res.cloudinary.com/baadaa/image/upload/c_scale,f_auto,q_auto,w_400/a_0/v1556514927/photos/IMG_0712.jpg',
-    full: 'https://www.youtube.com/watch?v=1q-CN-FInuU',
+      'https://res.cloudinary.com/anteater/image/upload/c_scale,f_auto,q_auto,w_600/v1564253292/studio_shot/SIK_4790_ujogep.jpg',
+    full:
+      'https://res.cloudinary.com/anteater/image/upload/c_fit,h_2600,w_2600,f_auto,q_auto/v1564253292/studio_shot/SIK_4790_ujogep.jpg',
   },
   {
     thumb:
-      'https://res.cloudinary.com/baadaa/image/upload/c_scale,f_auto,q_auto,w_400/a_0/v1556514439/photos/IMG_1223.jpg',
+      'https://res.cloudinary.com/anteater/image/upload/c_scale,f_auto,q_auto,w_600/v1564253292/studio_shot/SIK_4822_vvhluy.jpg',
     full:
-      'https://res.cloudinary.com/baadaa/image/upload/c_fit,h_2600,w_2600,f_auto,q_auto/a_0/v1556514439/photos/IMG_1223.jpg',
+      'https://res.cloudinary.com/anteater/image/upload/c_fit,h_2600,w_2600,f_auto,q_auto/v1564253292/studio_shot/SIK_4822_vvhluy.jpg',
   },
   {
     thumb:
-      'https://res.cloudinary.com/baadaa/image/upload/c_scale,f_auto,q_auto,w_400/a_0/v1556514582/photos/IMG_1136.jpg',
+      'https://res.cloudinary.com/anteater/image/upload/c_scale,f_auto,q_auto,w_600/v1564253291/studio_shot/SIK_4766_ptge2c.jpg',
     full:
-      'https://res.cloudinary.com/baadaa/image/upload/c_fit,h_2600,w_2600,f_auto,q_auto/a_0/v1556514582/photos/IMG_1136.jpg',
+      'https://res.cloudinary.com/anteater/image/upload/c_fit,h_2600,w_2600,f_auto,q_auto/v1564253291/studio_shot/SIK_4766_ptge2c.jpg',
   },
   {
     thumb:
-      'https://res.cloudinary.com/baadaa/image/upload/c_scale,f_auto,q_auto,w_400/a_0/v1556513777/photos/IMG_1501.jpg',
+      'https://res.cloudinary.com/anteater/image/upload/c_scale,f_auto,q_auto,w_600/v1564253291/studio_shot/SIK_4666_vuwy8f.jpg',
     full:
-      'https://res.cloudinary.com/baadaa/image/upload/c_fit,h_2600,w_2600,f_auto,q_auto/a_0/v1556513777/photos/IMG_1501.jpg',
+      'https://res.cloudinary.com/anteater/image/upload/c_fit,h_2600,w_2600,f_auto,q_auto/v1564253291/studio_shot/SIK_4666_vuwy8f.jpg',
   },
   {
     thumb:
-      'https://res.cloudinary.com/baadaa/image/upload/c_scale,f_auto,q_auto,w_400/a_0/v1556514344/photos/IMG_1336.jpg',
+      'https://res.cloudinary.com/anteater/image/upload/c_scale,f_auto,q_auto,w_600/v1564253291/studio_shot/SIK_4758_sxasww.jpg',
     full:
-      'https://res.cloudinary.com/baadaa/image/upload/c_fit,h_2600,w_2600,f_auto,q_auto/a_0/v1556514344/photos/IMG_1336.jpg',
+      'https://res.cloudinary.com/anteater/image/upload/c_fit,h_2600,w_2600,f_auto,q_auto/v1564253291/studio_shot/SIK_4758_sxasww.jpg',
   },
   {
     thumb:
-      'https://res.cloudinary.com/baadaa/image/upload/c_scale,f_auto,q_auto,w_400/a_0/v1550525854/photos/2019-2018-IMG_9499.jpg',
+      'https://res.cloudinary.com/anteater/image/upload/c_scale,f_auto,q_auto,w_600/v1564253291/studio_shot/SIK_4719_vmgofp.jpg',
     full:
-      'https://res.cloudinary.com/baadaa/image/upload/c_fit,h_2600,w_2600,f_auto,q_auto/a_0/v1550525854/photos/2019-2018-IMG_9499.jpg',
+      'https://res.cloudinary.com/anteater/image/upload/c_fit,h_2600,w_2600,f_auto,q_auto/v1564253291/studio_shot/SIK_4719_vmgofp.jpg',
   },
   {
     thumb:
-      'https://res.cloudinary.com/baadaa/image/upload/c_scale,f_auto,q_auto,w_400/a_0/v1550525853/photos/2019-2018-IMG_9487.jpg',
+      'https://res.cloudinary.com/anteater/image/upload/c_scale,f_auto,q_auto,w_600/v1564253291/studio_shot/SIK_4710_loi3cj.jpg',
     full:
-      'https://res.cloudinary.com/baadaa/image/upload/c_fit,h_2600,w_2600,f_auto,q_auto/a_0/v1550525853/photos/2019-2018-IMG_9487.jpg',
+      'https://res.cloudinary.com/anteater/image/upload/c_fit,h_2600,w_2600,f_auto,q_auto/v1564253291/studio_shot/SIK_4710_loi3cj.jpg',
   },
   {
     thumb:
-      'https://res.cloudinary.com/baadaa/image/upload/c_scale,f_auto,q_auto,w_400/a_0/v1550525842/photos/2019-2018-IMG_9554.jpg',
+      'https://res.cloudinary.com/anteater/image/upload/c_scale,f_auto,q_auto,w_600/v1564253291/studio_shot/SIK_4624_fbuw35.jpg',
     full:
-      'https://res.cloudinary.com/baadaa/image/upload/c_fit,h_2600,w_2600,f_auto,q_auto/a_0/v1550525842/photos/2019-2018-IMG_9554.jpg',
+      'https://res.cloudinary.com/anteater/image/upload/c_fit,h_2600,w_2600,f_auto,q_auto/v1564253291/studio_shot/SIK_4624_fbuw35.jpg',
   },
   {
     thumb:
-      'https://res.cloudinary.com/baadaa/image/upload/c_scale,f_auto,q_auto,w_400/a_0/v1550525836/photos/2019-2018-IMG_0012.jpg',
+      'https://res.cloudinary.com/anteater/image/upload/c_scale,f_auto,q_auto,w_600/v1564253291/studio_shot/SIK_4572_v3ieab.jpg',
     full:
-      'https://res.cloudinary.com/baadaa/image/upload/c_fit,h_2600,w_2600,f_auto,q_auto/a_0/v1550525836/photos/2019-2018-IMG_0012.jpg',
+      'https://res.cloudinary.com/anteater/image/upload/c_fit,h_2600,w_2600,f_auto,q_auto/v1564253291/studio_shot/SIK_4572_v3ieab.jpg',
   },
   {
     thumb:
-      'https://res.cloudinary.com/baadaa/image/upload/c_scale,f_auto,q_auto,w_400/a_0/v1550524764/photos/IMG_3432.jpg',
+      'https://res.cloudinary.com/anteater/image/upload/c_scale,f_auto,q_auto,w_600/v1564253291/studio_shot/SIK_4638_x58rln.jpg',
     full:
-      'https://res.cloudinary.com/baadaa/image/upload/c_fit,h_2600,w_2600,f_auto,q_auto/a_0/v1550524764/photos/IMG_3432.jpg',
+      'https://res.cloudinary.com/anteater/image/upload/c_fit,h_2600,w_2600,f_auto,q_auto/v1564253291/studio_shot/SIK_4638_x58rln.jpg',
   },
   {
     thumb:
-      'https://res.cloudinary.com/baadaa/image/upload/c_scale,f_auto,q_auto,w_400/a_0/v1550524821/photos/IMG_7608.jpg',
+      'https://res.cloudinary.com/anteater/image/upload/c_scale,f_auto,q_auto,w_600/v1564253290/studio_shot/SIK_4611_o9nrbr.jpg',
     full:
-      'https://res.cloudinary.com/baadaa/image/upload/c_fit,h_2600,w_2600,f_auto,q_auto/a_0/v1550524821/photos/IMG_7608.jpg',
+      'https://res.cloudinary.com/anteater/image/upload/c_fit,h_2600,w_2600,f_auto,q_auto/v1564253290/studio_shot/SIK_4611_o9nrbr.jpg',
   },
   {
     thumb:
-      'https://res.cloudinary.com/baadaa/image/upload/c_scale,f_auto,q_auto,w_400/a_0/v1541567843/photos/IMG_9819.jpg',
+      'https://res.cloudinary.com/anteater/image/upload/c_scale,f_auto,q_auto,w_600/v1564253290/studio_shot/SIK_4561_afoqgf.jpg',
     full:
-      'https://res.cloudinary.com/baadaa/image/upload/c_fit,h_2600,w_2600,f_auto,q_auto/a_0/v1541567843/photos/IMG_9819.jpg',
+      'https://res.cloudinary.com/anteater/image/upload/c_fit,h_2600,w_2600,f_auto,q_auto/v1564253290/studio_shot/SIK_4561_afoqgf.jpg',
   },
   {
     thumb:
-      'https://res.cloudinary.com/baadaa/image/upload/c_scale,f_auto,q_auto,w_400/a_0/v1541567842/photos/IMG_9746.jpg',
+      'https://res.cloudinary.com/anteater/image/upload/c_scale,f_auto,q_auto,w_600/v1564253290/studio_shot/SIK_4598_w7r5z0.jpg',
     full:
-      'https://res.cloudinary.com/baadaa/image/upload/c_fit,h_2600,w_2600,f_auto,q_auto/a_0/v1541567842/photos/IMG_9746.jpg',
+      'https://res.cloudinary.com/anteater/image/upload/c_fit,h_2600,w_2600,f_auto,q_auto/v1564253290/studio_shot/SIK_4598_w7r5z0.jpg',
   },
   {
     thumb:
-      'https://res.cloudinary.com/baadaa/image/upload/c_scale,f_auto,q_auto,w_400/a_0/v1541567823/photos/IMG_9525.jpg',
+      'https://res.cloudinary.com/anteater/image/upload/c_scale,f_auto,q_auto,w_600/v1564253276/studio_shot/SIK_4372_rluevu.jpg',
     full:
-      'https://res.cloudinary.com/baadaa/image/upload/c_fit,h_2600,w_2600,f_auto,q_auto/a_0/v1541567823/photos/IMG_9525.jpg',
+      'https://res.cloudinary.com/anteater/image/upload/c_fit,h_2600,w_2600,f_auto,q_auto/v1564253276/studio_shot/SIK_4372_rluevu.jpg',
+  },
+  {
+    thumb:
+      'https://res.cloudinary.com/anteater/image/upload/c_scale,f_auto,q_auto,w_600/v1564253276/studio_shot/SIK_4479_boiunx.jpg',
+    full:
+      'https://res.cloudinary.com/anteater/image/upload/c_fit,h_2600,w_2600,f_auto,q_auto/v1564253276/studio_shot/SIK_4479_boiunx.jpg',
+  },
+  {
+    thumb:
+      'https://res.cloudinary.com/anteater/image/upload/c_scale,f_auto,q_auto,w_600/v1564253275/studio_shot/SIK_4397_moz0hl.jpg',
+    full:
+      'https://res.cloudinary.com/anteater/image/upload/c_fit,h_2600,w_2600,f_auto,q_auto/v1564253275/studio_shot/SIK_4397_moz0hl.jpg',
+  },
+  {
+    thumb:
+      'https://res.cloudinary.com/anteater/image/upload/c_scale,f_auto,q_auto,w_600/v1564253275/studio_shot/SIK_4424_qz81kc.jpg',
+    full:
+      'https://res.cloudinary.com/anteater/image/upload/c_fit,h_2600,w_2600,f_auto,q_auto/v1564253275/studio_shot/SIK_4424_qz81kc.jpg',
+  },
+  {
+    thumb:
+      'https://res.cloudinary.com/anteater/image/upload/c_scale,f_auto,q_auto,w_600/v1564253275/studio_shot/SIK_4355_poluix.jpg',
+    full:
+      'https://res.cloudinary.com/anteater/image/upload/c_fit,h_2600,w_2600,f_auto,q_auto/v1564253275/studio_shot/SIK_4355_poluix.jpg',
+  },
+  {
+    thumb:
+      'https://res.cloudinary.com/anteater/image/upload/c_scale,f_auto,q_auto,w_600/v1564253275/studio_shot/SIK_4325_j1flkg.jpg',
+    full:
+      'https://res.cloudinary.com/anteater/image/upload/c_fit,h_2600,w_2600,f_auto,q_auto/v1564253275/studio_shot/SIK_4325_j1flkg.jpg',
+  },
+  {
+    thumb:
+      'https://res.cloudinary.com/anteater/image/upload/c_scale,f_auto,q_auto,w_600/v1564253275/studio_shot/SIK_4313_ewndtv.jpg',
+    full:
+      'https://res.cloudinary.com/anteater/image/upload/c_fit,h_2600,w_2600,f_auto,q_auto/v1564253275/studio_shot/SIK_4313_ewndtv.jpg',
+  },
+  {
+    thumb:
+      'https://res.cloudinary.com/anteater/image/upload/c_scale,f_auto,q_auto,w_600/v1564253274/studio_shot/SIK_4237_ab5wwj.jpg',
+    full:
+      'https://res.cloudinary.com/anteater/image/upload/c_fit,h_2600,w_2600,f_auto,q_auto/v1564253274/studio_shot/SIK_4237_ab5wwj.jpg',
+  },
+  {
+    thumb:
+      'https://res.cloudinary.com/anteater/image/upload/c_scale,f_auto,q_auto,w_600/v1564253274/studio_shot/SIK_4301_dthl9p.jpg',
+    full:
+      'https://res.cloudinary.com/anteater/image/upload/c_fit,h_2600,w_2600,f_auto,q_auto/v1564253274/studio_shot/SIK_4301_dthl9p.jpg',
+  },
+  {
+    thumb:
+      'https://res.cloudinary.com/anteater/image/upload/c_scale,f_auto,q_auto,w_600/v1564253274/studio_shot/SIK_4217_ok5dde.jpg',
+    full:
+      'https://res.cloudinary.com/anteater/image/upload/c_fit,h_2600,w_2600,f_auto,q_auto/v1564253274/studio_shot/SIK_4217_ok5dde.jpg',
+  },
+  {
+    thumb:
+      'https://res.cloudinary.com/anteater/image/upload/c_scale,f_auto,q_auto,w_600/v1564253274/studio_shot/SIK_4290_ou1nlg.jpg',
+    full:
+      'https://res.cloudinary.com/anteater/image/upload/c_fit,h_2600,w_2600,f_auto,q_auto/v1564253274/studio_shot/SIK_4290_ou1nlg.jpg',
+  },
+  {
+    thumb:
+      'https://res.cloudinary.com/anteater/image/upload/c_scale,f_auto,q_auto,w_600/v1564253274/studio_shot/SIK_4042_vkrs2b.jpg',
+    full:
+      'https://res.cloudinary.com/anteater/image/upload/c_fit,h_2600,w_2600,f_auto,q_auto/v1564253274/studio_shot/SIK_4042_vkrs2b.jpg',
+  },
+  {
+    thumb:
+      'https://res.cloudinary.com/anteater/image/upload/c_scale,f_auto,q_auto,w_600/v1564253274/studio_shot/SIK_4195_yjmamh.jpg',
+    full:
+      'https://res.cloudinary.com/anteater/image/upload/c_fit,h_2600,w_2600,f_auto,q_auto/v1564253274/studio_shot/SIK_4195_yjmamh.jpg',
+  },
+  {
+    thumb:
+      'https://res.cloudinary.com/anteater/image/upload/c_scale,f_auto,q_auto,w_600/v1564253274/studio_shot/SIK_4161_qdh7xi.jpg',
+    full:
+      'https://res.cloudinary.com/anteater/image/upload/c_fit,h_2600,w_2600,f_auto,q_auto/v1564253274/studio_shot/SIK_4161_qdh7xi.jpg',
+  },
+  {
+    thumb:
+      'https://res.cloudinary.com/anteater/image/upload/c_scale,f_auto,q_auto,w_600/v1564253274/studio_shot/SIK_4153_uaj95y.jpg',
+    full:
+      'https://res.cloudinary.com/anteater/image/upload/c_fit,h_2600,w_2600,f_auto,q_auto/v1564253274/studio_shot/SIK_4153_uaj95y.jpg',
+  },
+  {
+    thumb:
+      'https://res.cloudinary.com/anteater/image/upload/c_scale,f_auto,q_auto,w_600/v1564253274/studio_shot/SIK_4105_bdrujd.jpg',
+    full:
+      'https://res.cloudinary.com/anteater/image/upload/c_fit,h_2600,w_2600,f_auto,q_auto/v1564253274/studio_shot/SIK_4105_bdrujd.jpg',
+  },
+  {
+    thumb:
+      'https://res.cloudinary.com/anteater/image/upload/c_scale,f_auto,q_auto,w_600/v1564253273/studio_shot/SIK_4131_d7ma26.jpg',
+    full:
+      'https://res.cloudinary.com/anteater/image/upload/c_fit,h_2600,w_2600,f_auto,q_auto/v1564253273/studio_shot/SIK_4131_d7ma26.jpg',
+  },
+  {
+    thumb:
+      'https://res.cloudinary.com/anteater/image/upload/c_scale,f_auto,q_auto,w_600/v1564253273/studio_shot/SIK_4123_j4ccnq.jpg',
+    full:
+      'https://res.cloudinary.com/anteater/image/upload/c_fit,h_2600,w_2600,f_auto,q_auto/v1564253273/studio_shot/SIK_4123_j4ccnq.jpg',
+  },
+  {
+    thumb:
+      'https://res.cloudinary.com/anteater/image/upload/c_scale,f_auto,q_auto,w_600/v1564253273/studio_shot/SIK_3987_e2acxd.jpg',
+    full:
+      'https://res.cloudinary.com/anteater/image/upload/c_fit,h_2600,w_2600,f_auto,q_auto/v1564253273/studio_shot/SIK_3987_e2acxd.jpg',
+  },
+  {
+    thumb:
+      'https://res.cloudinary.com/anteater/image/upload/c_scale,f_auto,q_auto,w_600/v1564253273/studio_shot/SIK_4027_dfwxk9.jpg',
+    full:
+      'https://res.cloudinary.com/anteater/image/upload/c_fit,h_2600,w_2600,f_auto,q_auto/v1564253273/studio_shot/SIK_4027_dfwxk9.jpg',
+  },
+  {
+    thumb:
+      'https://res.cloudinary.com/anteater/image/upload/c_scale,f_auto,q_auto,w_600/v1564253272/studio_shot/SIK_3920_mgjgoy.jpg',
+    full:
+      'https://res.cloudinary.com/anteater/image/upload/c_fit,h_2600,w_2600,f_auto,q_auto/v1564253272/studio_shot/SIK_3920_mgjgoy.jpg',
+  },
+  {
+    thumb:
+      'https://res.cloudinary.com/anteater/image/upload/c_scale,f_auto,q_auto,w_600/v1564253272/studio_shot/SIK_3826_taghuy.jpg',
+    full:
+      'https://res.cloudinary.com/anteater/image/upload/c_fit,h_2600,w_2600,f_auto,q_auto/v1564253272/studio_shot/SIK_3826_taghuy.jpg',
+  },
+  {
+    thumb:
+      'https://res.cloudinary.com/anteater/image/upload/c_scale,f_auto,q_auto,w_600/v1564253272/studio_shot/SIK_3984_gpwea0.jpg',
+    full:
+      'https://res.cloudinary.com/anteater/image/upload/c_fit,h_2600,w_2600,f_auto,q_auto/v1564253272/studio_shot/SIK_3984_gpwea0.jpg',
+  },
+  {
+    thumb:
+      'https://res.cloudinary.com/anteater/image/upload/c_scale,f_auto,q_auto,w_600/v1564253272/studio_shot/SIK_3869_otf24c.jpg',
+    full:
+      'https://res.cloudinary.com/anteater/image/upload/c_fit,h_2600,w_2600,f_auto,q_auto/v1564253272/studio_shot/SIK_3869_otf24c.jpg',
+  },
+  {
+    thumb:
+      'https://res.cloudinary.com/anteater/image/upload/c_scale,f_auto,q_auto,w_600/v1564253272/studio_shot/SIK_3841_ppmohm.jpg',
+    full:
+      'https://res.cloudinary.com/anteater/image/upload/c_fit,h_2600,w_2600,f_auto,q_auto/v1564253272/studio_shot/SIK_3841_ppmohm.jpg',
+  },
+  {
+    thumb:
+      'https://res.cloudinary.com/anteater/image/upload/c_scale,f_auto,q_auto,w_600/v1564253272/studio_shot/SIK_3902_sssfkv.jpg',
+    full:
+      'https://res.cloudinary.com/anteater/image/upload/c_fit,h_2600,w_2600,f_auto,q_auto/v1564253272/studio_shot/SIK_3902_sssfkv.jpg',
   },
 ];
 const weddingDay = [
@@ -95,89 +246,6 @@ const weddingDay = [
       'https://res.cloudinary.com/baadaa/image/upload/c_scale,f_auto,q_auto,w_400/a_0/v1550525851/photos/2019-2018-IMG_9634.jpg',
     full:
       'https://res.cloudinary.com/baadaa/image/upload/c_fit,h_2600,w_2600,f_auto,q_auto/a_0/v1550525851/photos/2019-2018-IMG_9634.jpg',
-  },
-  {
-    thumb:
-      'https://res.cloudinary.com/baadaa/image/upload/c_scale,f_auto,q_auto,w_400/a_0/v1550525833/photos/2019-2018-IMG_0070.jpg',
-    full: 'https://www.youtube.com/watch?v=1q-CN-FInuU',
-  },
-  {
-    thumb:
-      'https://res.cloudinary.com/baadaa/image/upload/c_scale,f_auto,q_auto,w_400/a_0/v1556514439/photos/IMG_1223.jpg',
-    full:
-      'https://res.cloudinary.com/baadaa/image/upload/c_fit,h_2600,w_2600,f_auto,q_auto/a_0/v1556514439/photos/IMG_1223.jpg',
-  },
-  {
-    thumb:
-      'https://res.cloudinary.com/baadaa/image/upload/c_scale,f_auto,q_auto,w_400/a_0/v1556514582/photos/IMG_1136.jpg',
-    full:
-      'https://res.cloudinary.com/baadaa/image/upload/c_fit,h_2600,w_2600,f_auto,q_auto/a_0/v1556514582/photos/IMG_1136.jpg',
-  },
-  {
-    thumb:
-      'https://res.cloudinary.com/baadaa/image/upload/c_scale,f_auto,q_auto,w_400/a_0/v1556513777/photos/IMG_1501.jpg',
-    full:
-      'https://res.cloudinary.com/baadaa/image/upload/c_fit,h_2600,w_2600,f_auto,q_auto/a_0/v1556513777/photos/IMG_1501.jpg',
-  },
-  {
-    thumb:
-      'https://res.cloudinary.com/baadaa/image/upload/c_scale,f_auto,q_auto,w_400/a_0/v1556514344/photos/IMG_1336.jpg',
-    full:
-      'https://res.cloudinary.com/baadaa/image/upload/c_fit,h_2600,w_2600,f_auto,q_auto/a_0/v1556514344/photos/IMG_1336.jpg',
-  },
-  {
-    thumb:
-      'https://res.cloudinary.com/baadaa/image/upload/c_scale,f_auto,q_auto,w_400/a_0/v1550525854/photos/2019-2018-IMG_9499.jpg',
-    full:
-      'https://res.cloudinary.com/baadaa/image/upload/c_fit,h_2600,w_2600,f_auto,q_auto/a_0/v1550525854/photos/2019-2018-IMG_9499.jpg',
-  },
-  {
-    thumb:
-      'https://res.cloudinary.com/baadaa/image/upload/c_scale,f_auto,q_auto,w_400/a_0/v1550525853/photos/2019-2018-IMG_9487.jpg',
-    full:
-      'https://res.cloudinary.com/baadaa/image/upload/c_fit,h_2600,w_2600,f_auto,q_auto/a_0/v1550525853/photos/2019-2018-IMG_9487.jpg',
-  },
-  {
-    thumb:
-      'https://res.cloudinary.com/baadaa/image/upload/c_scale,f_auto,q_auto,w_400/a_0/v1550525842/photos/2019-2018-IMG_9554.jpg',
-    full:
-      'https://res.cloudinary.com/baadaa/image/upload/c_fit,h_2600,w_2600,f_auto,q_auto/a_0/v1550525842/photos/2019-2018-IMG_9554.jpg',
-  },
-  {
-    thumb:
-      'https://res.cloudinary.com/baadaa/image/upload/c_scale,f_auto,q_auto,w_400/a_0/v1550525836/photos/2019-2018-IMG_0012.jpg',
-    full:
-      'https://res.cloudinary.com/baadaa/image/upload/c_fit,h_2600,w_2600,f_auto,q_auto/a_0/v1550525836/photos/2019-2018-IMG_0012.jpg',
-  },
-  {
-    thumb:
-      'https://res.cloudinary.com/baadaa/image/upload/c_scale,f_auto,q_auto,w_400/a_0/v1550524764/photos/IMG_3432.jpg',
-    full:
-      'https://res.cloudinary.com/baadaa/image/upload/c_fit,h_2600,w_2600,f_auto,q_auto/a_0/v1550524764/photos/IMG_3432.jpg',
-  },
-  {
-    thumb:
-      'https://res.cloudinary.com/baadaa/image/upload/c_scale,f_auto,q_auto,w_400/a_0/v1550524821/photos/IMG_7608.jpg',
-    full:
-      'https://res.cloudinary.com/baadaa/image/upload/c_fit,h_2600,w_2600,f_auto,q_auto/a_0/v1550524821/photos/IMG_7608.jpg',
-  },
-  {
-    thumb:
-      'https://res.cloudinary.com/baadaa/image/upload/c_scale,f_auto,q_auto,w_400/a_0/v1541567843/photos/IMG_9819.jpg',
-    full:
-      'https://res.cloudinary.com/baadaa/image/upload/c_fit,h_2600,w_2600,f_auto,q_auto/a_0/v1541567843/photos/IMG_9819.jpg',
-  },
-  {
-    thumb:
-      'https://res.cloudinary.com/baadaa/image/upload/c_scale,f_auto,q_auto,w_400/a_0/v1541567842/photos/IMG_9746.jpg',
-    full:
-      'https://res.cloudinary.com/baadaa/image/upload/c_fit,h_2600,w_2600,f_auto,q_auto/a_0/v1541567842/photos/IMG_9746.jpg',
-  },
-  {
-    thumb:
-      'https://res.cloudinary.com/baadaa/image/upload/c_scale,f_auto,q_auto,w_400/a_0/v1541567823/photos/IMG_9525.jpg',
-    full:
-      'https://res.cloudinary.com/baadaa/image/upload/c_fit,h_2600,w_2600,f_auto,q_auto/a_0/v1541567823/photos/IMG_9525.jpg',
   },
 ];
 const roadTrip = [
