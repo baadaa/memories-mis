@@ -1,13 +1,15 @@
 import Masonry from 'masonry-layout';
 import imagesLoaded from 'imagesloaded';
-import GLightbox from 'glightbox';
+import GLightbox from './js/glightbox';
 import { shuffle } from './js/shuffle';
 
 import {
+  testShots,
   studioShots,
   weddingDay,
   roadTrip,
   processTags,
+  processResponsiveTags,
 } from './js/photoSections';
 
 window.addEventListener('load', () => {
@@ -17,7 +19,7 @@ window.addEventListener('load', () => {
     studioShots: {
       category: 'studioShots',
       titleH2: 'Studio shoot',
-      innerTag: studioShots,
+      innerTag: testShots,
     },
     weddingDay: {
       category: 'weddingDay',
@@ -50,7 +52,7 @@ window.addEventListener('load', () => {
 
   const getSectionTags = (section = studioShots) =>
     shuffle([...section]).reduce(
-      (acc, item) => acc + processTags(item),
+      (acc, item) => acc + processResponsiveTags(item),
       '<div class="grid-sizer"></div>'
     );
   const initGLightbox = () =>
