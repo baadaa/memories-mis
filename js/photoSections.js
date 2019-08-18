@@ -2805,16 +2805,14 @@ const processTags = tagItem => `
 
 const processResponsiveTags = tagItem => {
   if (tagItem.video) {
-    return `${tagItem}
-    <div class="grid-item">
+    return `<div class="grid-item">
       <a href="${tagItem.video}"class="glightbox">
         <img src="${tagItem.thumb}" alt="">
       </a>
     </div>
     `;
   }
-  return `${tagItem}
-    <div class="grid-item">
+  return `<div class="grid-item">
       <a href="${tagItem.w2600}" data-srcset="${tagItem.w400} 400w,
       ${tagItem.w800} 800w,
       ${tagItem.w1200} 1200w,
