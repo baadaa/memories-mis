@@ -113,13 +113,15 @@ nav.menu-toggle {
       }
 
       &.weddingDay {
-        background-image: url('https://res.cloudinary.com/baadaa/image/upload/c_scale,f_auto,q_auto,w_400/a_0/v1550525842/photos/2019-2018-IMG_9554.jpg');
+        background-image: url('https://res.cloudinary.com/anteater/image/upload/c_scale,f_auto,q_auto,w_1600/a_0/v1566152530/wedding_day/j5a0d9qbgpybf8jnwdzk.jpg');
       }
 
       &.roadTrip {
-        background-image: url('https://res.cloudinary.com/baadaa/image/upload/c_scale,f_auto,q_auto,w_400/a_0/v1550525853/photos/2019-2018-IMG_9487.jpg');
+        background-image: url('https://res.cloudinary.com/anteater/image/upload/c_scale,f_auto,q_auto,w_1600/a_0/v1566153095/road_trip/ymd1ymivjjrwkjolarmu.jpg');
       }
     }
+
+
 
     @media screen and (max-width: 768px) {
       flex-direction: column;

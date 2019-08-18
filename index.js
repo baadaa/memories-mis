@@ -7,7 +7,6 @@ import {
   studioShots,
   weddingDay,
   roadTrip,
-  processTags,
   processResponsiveTags,
 } from './js/photoSections';
 
@@ -73,6 +72,10 @@ window.addEventListener('load', () => {
     document.querySelector('.currently_showing').innerHTML = titleH2;
     grid.innerHTML = getSectionTags(innerTag);
     initiateGridAndLightbox();
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth',
+    });
   };
   // const handleSwitch = e => {
   //   if (currentSection === 'Studio shoot') {
