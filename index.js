@@ -4,7 +4,6 @@ import GLightbox from './js/glightbox';
 import { shuffle } from './js/shuffle';
 
 import {
-  testShots,
   studioShots,
   weddingDay,
   roadTrip,
@@ -19,7 +18,7 @@ window.addEventListener('load', () => {
     studioShots: {
       category: 'studioShots',
       titleH2: 'Studio shoot',
-      innerTag: testShots,
+      innerTag: studioShots,
     },
     weddingDay: {
       category: 'weddingDay',
