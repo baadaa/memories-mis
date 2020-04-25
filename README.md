@@ -8,6 +8,13 @@ A follow-up site from the [wedding invitation site](https://www.marriedinseoul.c
   - Modified `GLightbox` for lightbox
   - `Masonry` for drop-in masonry layout
 
+### TODOs
+
+- Add videos
+- Curate photos
+- Fix image loading performance and lazy-loading behaviro
+
+
 ## Start a dev server
 
 The following will start a Parcel dev environment with hot reloading.
